@@ -6,7 +6,7 @@
     <groupId>com.github.xiaoxiao65535</groupId>
     <artifactId>jd-vop-api</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <description>京东VOP大客户平台上级POM</description>
     <url>https://github.com/xiaoxiao65535/jd-vop-api</url>
 
