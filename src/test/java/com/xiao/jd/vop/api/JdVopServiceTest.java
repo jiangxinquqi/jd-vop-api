@@ -28,18 +28,18 @@ public class JdVopServiceTest {
         // 内部账号
 //        JdVopInRedisConfigStorage configStorage = new JdVopInRedisConfigStorage(
 //                jedisPool,
-//                "CYzhongyan",
-//                "Af1Yv3Ty7u5wb4hVUyFl",
-//                "CYZYTobacco3",
-//                "qqq111");
+//                "xxx",
+//                "xxxx",
+//                "xxx",
+//                "xxxx");
 
         // 营销账号
         JdVopInRedisConfigStorage configStorage = new JdVopInRedisConfigStorage(
                 jedisPool,
-                "CYzhongyan",
-                "Af1Yv3Ty7u5wb4hVUyFl",
-                "CYZYTobacco",
-                "qqq111");
+                "clientId",
+                "clientSecret",
+                "username",
+                "password");
         jdVopService = new JdVopServiceImpl();
         jdVopService.setJdVopConfigStorage(configStorage);
     }
