@@ -22,7 +22,7 @@
         <jedis.version>2.9.0</jedis.version>
         <httpclient.version>4.5.2</httpclient.version>
         <jackson-databind.version>2.9.10.7</jackson-databind.version>
-        <fastjson.version>1.2.41</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <commons-lang3.version>3.4</commons-lang3.version>
         <slf4j-api.version>1.7.25</slf4j-api.version>
         <slf4j-log4j12.version>1.7.12</slf4j-log4j12.version>
